@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banks</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+</head>
+
+<body onload="load_page()">
+
+    <div id=main_div>
+
+        <div id="top_div">
+            <h1>Bank list</h1>
+            <button name="add" onclick="addRowButton()">
+                <img src="./img/baseline_add_black_24dp.png" alt="Add row button">Add row</button>
+
+
+            <button name="remove" onclick="deleteRow()">
+                <img src="./img/baseline_remove_black_24dp.png" alt="Remove button">Remove</button>
+
+
+            <button name="edit" onclick="editRow()">
+                <img src="./img/baseline_edit_black_24dp.png" alt="Edit button">Edit</button>
+
+            <button name="save" onclick="saveData()">
+                <img src="./img/baseline_save_black_24dp.png" alt="Save data button">Save</button>
+
+            <a id=link_id href="./calc-page.html">
+                <button name="calc">
+                    <img src="./img/outline_calculate_black_24dp.png" alt="Start the engineering calculator">
+                    Calculator</button></a>
+        </div>
+
+        <table id=tab_id>
+            <tbody>
+                <tr id=tab_header>
+                    <td>Bank name</td>
+                    <td>Interest rate(%)</td>
+                    <td>Maximum loan($)</td>
+                    <td>Minimum down payment(%)</td>
+                    <td>Loan term(month)</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>

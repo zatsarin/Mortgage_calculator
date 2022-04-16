@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage calculator</title>
+    <link rel="stylesheet" href="./css/cals-style.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+</head>
+
+<body>
+    <div id=calc_div>
+        <div id=bank_list_link>
+            <h1>Mortgage calculator</h1>
+            <a href="./index.html">
+                <!-- <button name="main_page"> -->
+                    <img src="./img/outline_arrow_back_black_24dp.png" alt="Main page link">
+                <!-- </button> -->
+            </a>
+        </div>
+
+        <div id="line"></div>
+
+        <div class="input-field">
+            <label class="input-field__label" for="loan"> Initial loan($)</label>
+            <input class="input-field__input" type="number" name="loan" id="loan">
+        </div>
+
+        <div class="input-field">
+            <label class="input-field__label" for="loan"> Down payment($)</label>
+            <input class="input-field__input" type="number" name="payment" id="payment">
+        </div>
+
+        <div class="input-field">
+            <label class="input-field__label" for="loan"> Bank:</label>
+            <input class="input-field__input" name="bank" id="bank_id" list="banks" onclick="readBanksList()">
+            <datalist id="banks"></datalist>
+        </div>
+
+        <div id="calc_data-field">
+            <label id="calc_info-field__label" for="loan">$0,00 USD</label>
+        </div>
+
+        <div id="error-field">
+            <label id="error_text-field__label" for="loan">To calculate a monthly payment, fill in all the fields and
+                click the 'Calculate' button</label>
+
+        </div>
+
+        <div id="btn_calculate">
+            <button id=button_calc onclick="calculateButton()">CALCULATE</button>
+            <button id=button_reset onclick="resetButton()">RESET</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+#main_div {
+
+    margin-top: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+#tab_id {
+
+    border-collapse: collapse;
+
+}
+
+td {
+
+    width: 10%;
+    height: 40px;
+    border: 1pt solid grey;
+    background-color: white;
+
+}
+
+input {
+
+    width: 80%;
+    height: 40px;
+    margin-left: 5%;
+    border: 0ch;
+    font-size: medium;
+
+}
+
+*:focus {
+
+    outline: none;
+
+}
+
+#tab_header td {
+
+    width: 10%;
+    height: 50px;
+    background-color: rgb(222, 231, 244);
+    text-align: center;
+    border: 1pt solid grey;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+
+}
+
+.selected input {
+    background-color: rgb(238, 238, 252);
+}
+
+.selected td {
+    background-color: rgb(238, 238, 252);
+}
+
+/* #btn_calculate button {
+    width: 10rem;
+    margin-bottom: 0.4rem;
+    background-color: lightblue;
+
+} */
+
+#top_div{
+    display: flex;
+    height: 4em;
+    background-color: rgb(94, 129, 172);
+}
+
+#top_div h1{
+    margin-right: auto;
+    margin-left: 1rem;
+    color: white;
+}
+
+#top_div button{
+    width: 10rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: lightsteelblue;
+    height: 50px;
+}
+
+#top_div img{
+    height: 40px;
+}
