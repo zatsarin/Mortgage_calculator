@@ -7,18 +7,22 @@
 
 body {
     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
 #main_div {
 
-    margin-top: 10rem;
-    margin-left: 20%;
-    margin-right: 20%;
-
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color:rgba(209, 241, 235, 0.604);
+    border: 1px solid rgb(5, 212, 174);
+    ;
 }
 
 #tab_id {
 
+    width: 1100px;
     border-collapse: collapse;
 
 }
@@ -88,27 +92,39 @@ input[type=number] {
 
 } */
 
-#top_div{
+#top_div {
     display: flex;
-    height: 4em;
-    background-color: rgb(94, 129, 172);
+    height: 50px;
+    width: 1100px;
+    background-color: rgb(40, 56, 69);
 }
 
-#top_div h1{
+#top_div h1 {
     margin-right: auto;
     margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
     color: white;
 }
 
-#top_div button{
-    width: 10rem;
+#top_div button {
+    width: 9em;
     margin-bottom: 0.2rem;
     margin-top: 0.5rem;
     margin-right: 0.5rem;
-    background-color: lightsteelblue;
-    height: 50px;
+    background-color: rgb(121, 135, 135);
+    height: 35px;
+    border: 0px;
+    border-radius: 0.5ch;
 }
 
-#top_div img{
-    height: 40px;
+#top_div img {
+    height: 30px;
 }
+
+/* RGB(21, 154, 129)
+RGB(42, 124, 179)
+RGB(189, 61, 48)
+RGB(43, 60, 77)
+RGB(121, 135, 135)
+RGB(202, 81, 0) */

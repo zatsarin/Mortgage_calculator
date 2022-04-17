@@ -235,6 +235,8 @@ function calculateButton() {
     var calcErrorLabel = document.getElementById("error_text-field__label");
     var interestRate = 0;
 
+    calcInfoLabel.textContent = "$0,00" + " USD";
+    
     if (initialLoan.value.length == undefined || initialLoan.value.length == 0) {
         calcErrorLabel.style.color = 'rgb(226, 32, 32)';
         calcErrorLabel.textContent = "Please full initial loan field!";
