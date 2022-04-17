@@ -6,7 +6,7 @@ payments using one of these bank’s settings.
 ## Installation
 
 Web application store data in localStorage of web browser, so
-to install app you need just download archive, unzip it to your web server folder and go to the link [http://127.0.0.1:5500/Calc/index.html](http://127.0.0.1:5500/Calc/index.html)
+to install app you need just download archive, unzip it to your web server folder and go to the link [http://127.0.0.1/Calc/index.html](http://127.0.0.1:5500/Calc/index.html)
 
 
 ## Usage
