@@ -85,13 +85,6 @@ input[type=number] {
     background-color: rgb(238, 238, 252);
 }
 
-/* #btn_calculate button {
-    width: 10rem;
-    margin-bottom: 0.4rem;
-    background-color: lightblue;
-
-} */
-
 #top_div {
     display: flex;
     height: 50px;
@@ -121,10 +114,3 @@ input[type=number] {
 #top_div img {
     height: 30px;
 }
-
-/* RGB(21, 154, 129)
-RGB(42, 124, 179)
-RGB(189, 61, 48)
-RGB(43, 60, 77)
-RGB(121, 135, 135)
-RGB(202, 81, 0) */

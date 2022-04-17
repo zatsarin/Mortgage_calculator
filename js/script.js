@@ -124,7 +124,6 @@ function saveData() {
     else {
         alert('Some cells is empty');
     }
-
 }
 
 // ReadOnly = false for all inputs
@@ -190,7 +189,7 @@ function highlight_row() {
 
 }
 
-// Full banks list
+// Filling  banks lis
 function readBanksList() {
 
     var inputValueArr = JSON.parse(localStorage.getItem("data_array"));
